@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: aw-vinhos
 Implementation-Version: 1.0.0-SNAPSHOT
-Built-By: Eneas
+Built-By: Eneas.Seven
 Implementation-Vendor-Id: com.algaworks
-Build-Jdk: 1.8.0_121
+Build-Jdk: 1.8.0_77
 Implementation-URL: http://projects.spring.io/spring-boot/aw-vinhos/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.

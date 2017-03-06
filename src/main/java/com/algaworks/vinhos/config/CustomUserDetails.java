@@ -1,4 +1,4 @@
-package security;
+package com.algaworks.vinhos.config;
 
 import java.util.Collection;
 import java.util.List;
@@ -7,9 +7,11 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.util.StringUtils;
-import domain.User;
 
-public class CustomUserDetails extends domain.User implements UserDetails {	
+import com.algaworks.vinhos.model.security.User;
+
+
+public class CustomUserDetails extends User implements UserDetails {	
 	
 	private static final long serialVersionUID = 1L;
 	private List<String> userRoles;

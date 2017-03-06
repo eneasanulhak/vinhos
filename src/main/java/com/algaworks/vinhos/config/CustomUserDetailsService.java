@@ -1,4 +1,4 @@
-package security;
+package com.algaworks.vinhos.config;
 
 import java.util.List;
 
@@ -8,9 +8,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
-import domain.User;
-import domain.UserRepository;
-import domain.UserRolesRepository;
+import com.algaworks.vinhos.model.security.User;
+import com.algaworks.vinhos.repository.security.UserRepository;
+import com.algaworks.vinhos.repository.security.UserRolesRepository;
+
 
 @Service("customUserDetailsService")
 public class CustomUserDetailsService implements UserDetailsService{
